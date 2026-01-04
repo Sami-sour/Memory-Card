@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+  color: rgb(216, 210, 210);
+}
+
+body {
+  background-color: rgba(29, 51, 52, 0.97);
+}
+
+h1 {
+  font-size: 5vw;
+}
+.header {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.game-rule {
+  font-size: 3vw;
+  margin: 0.7rem;
+}
+
+.score-card {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.best-score,
+.current-score {
+  font-weight: 800;
+  font-size: 3vw;
+}
+
+.cards-main-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main-card-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.card-container {
+  background-color: rgba(197, 216, 218, 0.155);
+  box-shadow: 0px 0px 11px 0px white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 30vh;
+}
+
+.image img {
+  width: 26vh;
+  height: 30vh;
+  border-radius: 0.5rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-name {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 22px;
+}
+
+.game-loose-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  font-size: 6vh;
+}
+
+.message {
+  color: rgb(231, 86, 86);
+}
